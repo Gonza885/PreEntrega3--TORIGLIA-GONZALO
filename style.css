@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+}
+
+h1, h2, h3, hr{
+    color: tomato;
+}
+
+.imgProductos {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-top: 1rem;
+}
+
+.card {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+    padding: 1rem;
+    border-color: tomato;
+}
+
+.colorBoton {
+    color: #000000;
+    background-color: tomato;
+    display:flexbox;
+    flex-direction:initial;
+    margin: 20px;
+    align-items: center;
+    
+}
+
+.colorBoton:hover {
+    background-color: rgb(243, 126, 105);
+}
+
+h5, p{
+    text-align: center;
+    color: aliceblue;
+}
+
+span{
+    color: rgb(243, 154, 138);
+}
+
+.sumar{
+    cursor: pointer;
+    align-items: initial;
+    
+}
+
+.restar{
+    cursor: pointer;
+    justify-content: left;
+}
+
+p{
+    text-align: center;
+}
